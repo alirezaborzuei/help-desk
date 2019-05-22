@@ -1,0 +1,39 @@
+/*Base CSS*/
+
+.bold {
+    font-weight: bold;
+}
+
+.font-iran-sans {
+    font-family: IRANSans !important;
+}
+
+.navbar-item {
+    color: green;
+    margin: 5px;
+}
+
+.navbar-active-item {
+    color: blue;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.right-dir {
+    direction: rtl !important;
+}
+
+.right-txt {
+    text-align: right !important;
+}
+
+.center-text {
+    text-align: center !important;
+}
+
+.welcome{
+    text-align: center;
+    margin: 50px 0;
+    font-size: 26px;
+    font-style: italic;
+}
