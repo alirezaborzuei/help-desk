@@ -20,3 +20,18 @@ export const cities = [
         name:'شیراز'
     },
 ];
+class App extends React.Component {
+    state = {
+        id: '',
+        name:''
+    };
+    handleCities = () => {
+        const {name, id } = this.state;
+        const user = customer.find((item) => item.id === code);
+       
+
+
+
+
+
+export default cities;

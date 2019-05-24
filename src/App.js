@@ -8,12 +8,11 @@ import ProductsList from "./component/Products/ProductsList";
 import TicketsList from "./component/Tickets/TicketsList";
 import AddProduct from "./component/Products/AddProduct";
 import AddTicket from "./component/Tickets/AddTicket";
+import Costumers from "./src/mockData/costumers";
+import Cities from "./src/mockData/cities";
 
 
-class App extends React.Component {
-
-
-    render() {
+    render() 
         return (
             <BrowserRouter>
                 <Navbar/>
@@ -27,8 +26,13 @@ class App extends React.Component {
                     <Route path="/add-ticket" component={AddTicket}/>
                 </Switch>
             </BrowserRouter>
+            </handlSubmit>
+             
         );
     }
-}
+
+
+
+
 
 export default App;

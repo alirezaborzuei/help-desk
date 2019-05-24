@@ -30,3 +30,31 @@ export const costumers = [
         status:false
     },
 ];
+
+class App extends React.Component {
+    state = {
+       id : '',
+       fullName : '',
+       city : [],
+    };
+    handleSubmit = () => {
+        const {fullName,city,id} = this.state;
+        const user = Custumers.find((item) => item.id === code);
+        if(user){
+            const reportObject = {
+                code,
+                fullName,
+                city,
+                
+            };
+            reports.push(reportObject);
+            this.setState(() => ({reports}));
+            alert('DOne');
+        } else{
+            alert('User not found!');
+        }
+
+    };
+
+export default Custumers;
+
